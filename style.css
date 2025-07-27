@@ -40,3 +40,28 @@ strong, b {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #eaeaea;
+  padding: 1em 0;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+nav a {
+  color: #056156;
+  text-decoration: none;
+  margin: 0 1em;
+  padding: 0.3em 0.6em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #333;
+  text-decoration: underline;
+}
