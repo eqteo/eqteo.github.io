@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -7,8 +7,9 @@ body {
 }
 
 header {
-  background-color: #24292e;
-  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #f4f4f4;
+  color: #a34343;
   padding: 2em;
   text-align: center;
 }
@@ -24,4 +25,14 @@ footer {
   padding: 1em;
   background-color: #eee;
   margin-top: 2em;
+}
+
+main a {
+  color: #056156;     
+  text-decoration: none;
+  font-weight: bold;
+}
+
+strong, b {
+  color: #a34343;  
 }
