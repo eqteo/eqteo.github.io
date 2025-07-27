@@ -54,11 +54,16 @@ nav {
 }
 
 nav a {
-  color: #056156;
+  color: #056156;        
   text-decoration: none;
   margin: 0 1em;
   padding: 0.3em 0.6em;
+  font-weight: normal;
   transition: color 0.3s ease;
+}
+
+nav a:visited {
+  color: #056156;         
 }
 
 nav a:hover {
