@@ -19,6 +19,16 @@ body {
   flex: 0 0 auto;
 }
 
+.profile-pic {
+  width: 280px;
+  max-width: 100%; 
+  height: auto;
+  border-radius: 0;
+  flex: 0 0 auto;
+  display: block;
+}
+
+
 header {
   font-family: 'Cormorant Garamond', serif;
   background-color: white;
