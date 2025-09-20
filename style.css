@@ -12,10 +12,11 @@ body {
   gap: 20px; 
 }
 
-.about-content img {
-  width: 80px; 
+.profile-pic {
+  max-width: 200px; 
+  width: 100%;
   height: auto;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 header {
