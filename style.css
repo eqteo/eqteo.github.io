@@ -14,8 +14,7 @@ body {
 
 .profile-pic {
   width: 200px;
-  height: auto;   
-  border-radius: 10px;
+  height: auto;
   flex: 0 0 auto;
 }
 
