@@ -13,10 +13,11 @@ body {
 }
 
 .profile-pic {
-  max-width: 40px; 
-  width: 100%;
-  height: auto;
+  width: 120px;   
+  max-width: 100%;  
+  height: auto;   
   border-radius: 10px;
+  flex-shrink: 0;  
 }
 
 header {
